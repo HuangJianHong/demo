@@ -6,3 +6,14 @@ zy:
 
 server:
   port: 8070
+
+spring:
+   profiles:
+     active:  dev
+
+#多个配置
+---
+spring:
+   profiles: dev
+server:
+   port: 8090
