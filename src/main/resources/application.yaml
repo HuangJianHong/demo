@@ -1,0 +1,8 @@
+zy:
+  secret: ${random.value}
+  number: ${random.int}
+  name: teacher_zhu
+  address: http://www.${zy.name}.com
+
+server:
+  port: 8070
